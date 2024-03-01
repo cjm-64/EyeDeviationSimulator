@@ -12,4 +12,5 @@ function finalPosition = moveArduinoMotor(motor, startPos, endPos)
         end
     end
     finalPosition = readPosition(motor);
+    
 end
